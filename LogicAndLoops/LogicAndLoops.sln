@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicAndLoops", "LogicAndLoops\LogicAndLoops.csproj", "{900B36C0-FDF0-4C1C-BCB4-65472B7CB9DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{900B36C0-FDF0-4C1C-BCB4-65472B7CB9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900B36C0-FDF0-4C1C-BCB4-65472B7CB9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900B36C0-FDF0-4C1C-BCB4-65472B7CB9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900B36C0-FDF0-4C1C-BCB4-65472B7CB9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {244AD1F2-BE74-46EC-890A-D7173C79CA02}
+	EndGlobalSection
+EndGlobal
