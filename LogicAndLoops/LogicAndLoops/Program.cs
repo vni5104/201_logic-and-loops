@@ -25,6 +25,51 @@
                 "the cave and go right.");
             userChoice = Console.ReadLine();
             Console.WriteLine("\nYou chose: " + userChoice + "\n");
+
+            if (userChoice == "left")
+            {
+                //Go left
+                Console.WriteLine("You take the path on the left. It leads you out of the jungle. You " +
+                    "are safe to go on another adventure.");
+            }
+            else if (userChoice == "right")
+            {
+                //Go right
+                Console.Write("You take the path on the right. It leads you into a cave. There is a cave " +
+                    "in and you are trapped!");
+            } else
+            {
+                //User typed in something else
+                userChoice = "NONE";
+                while (userChoice != "left" && userChoice != "right" && userChoice != "under")
+                {
+                    Console.WriteLine("Please enter 'left', 'right', or the secret option *****");
+                    userChoice = Console.ReadLine();
+                    Console.WriteLine("\nYou chose: " + userChoice + "\n");
+
+                    if (userChoice == "left")
+                    {
+                        //Go left
+                        Console.WriteLine("You take the path on the left. It leads you out of the jungle. You " +
+                            "are safe to go on another adventure.");
+                    } else if (userChoice == "right")
+                    {
+                        //Go right
+                        Console.Write("You take the path on the right. It leads you into a cave. There is a cave " +
+                            "in and you are trapped!");
+                    }
+                    else if (userChoice == "under")
+                    {
+                        //Go under (easter egg)
+                        Console.WriteLine("Is there something crawling in your direction?!");
+                        Console.WriteLine("...");
+                    }
+                    else
+                    {
+                        Console.WriteLine("You're getting off-script.");
+                    }
+                }
+            }
         }
     }
 }
